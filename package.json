@@ -2,10 +2,11 @@
   "homepage": ".",
   "name": "solcases",
   "version": "0.1.0",
-  "node": "16.13.0",
-  "npm": "8.1.3",
-
-  "private": true,
+    "private": true,
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.3",
+  }
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
