@@ -1,0 +1,64 @@
+    1  node -v
+    2  sudo apt-get update
+    3  node -v
+    4  sudo apt-get install nodejs
+    5  node -v
+    6  sudo apt remove nodejs
+    7  curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+    8  node -v
+    9  sudo apt-get upgrade
+   10  clear
+   11  sudo apt-get upgrade
+   12  sudo apt-get install -y nodejs
+   13  node -v
+   14  npm -v 
+   15  npm install --global yarn
+   16  npm install ufw
+   17  ufw enable
+   18  ufw allow http
+   19  ufw allow https
+   20  ufw allow ssh
+   21  ufw reload
+   22  npm install -g serve
+   23  npm install pm2 -g
+   24  pm2 list
+   25  ls
+   26  cd myapp/
+   27  create-react-app
+   28  npx create-react-app solcases
+   29  ls
+   30  cd solcases/
+   31  ls
+   32  npm start
+   33  ls
+   34  yarn build
+   35  ls
+   36  server -d "build"
+   37  serve -d "build"
+   38  pm2 serve build 80 --name="Production"
+   39  pm2 list
+   40  pm2 start production
+   41  pm2 stop production
+   42  pm2 --help
+   43  pm2 start --name Production
+   44  pm2 stop--name Production
+   45  pm2 stop --name Production
+   46  pm2 stop --name "Production"
+   47  pm2 stop --name="Production"
+   48  pm2 stop name="Production"
+   49  pm2 list
+   50  pm2 status
+   51  pm2 delete
+   52  pm2 delete Production
+   53  pm2 serve build 80 --name="Production"
+   54  pm2 delete Production
+   55  pm2 serve build 80 --name="Production"
+   56  pm2 reload
+   57  pm2 reload -a
+   58  pm2 reload all
+   59  pm2 list
+   60  pm2 logs
+   61  pm2 stop Production:80
+   62  pm2 stop Production
+   63  pm2 serve build 80 --name="Production"
+   64  history >textfile.txt
